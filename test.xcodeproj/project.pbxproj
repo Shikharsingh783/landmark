@@ -412,6 +412,9 @@
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = app.test;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.shikhar0509.test;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.shikhar0509.test;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=xros*]" = com.shikhar0509.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -451,6 +454,9 @@
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = app.test;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.shikhar0509.test;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.shikhar0509.test;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=xros*]" = com.shikhar0509.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
